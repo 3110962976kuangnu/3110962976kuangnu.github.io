@@ -1,0 +1,1 @@
+`-compile-commands-dir=${workspaceFolder}/build`
