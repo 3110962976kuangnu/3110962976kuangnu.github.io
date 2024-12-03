@@ -1,5 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>crfl BLOGe</title><link>https://3110962976kuangnu.github.io</link><description>随便写写</description><copyright>crfl BLOGe</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/49715246?v=4</url><title>avatar</title><link>https://3110962976kuangnu.github.io</link></image><lastBuildDate>Sat, 30 Nov 2024 02:13:51 +0000</lastBuildDate><managingEditor>crfl BLOGe</managingEditor><ttl>60</ttl><webMaster>crfl BLOGe</webMaster><item><title>keil 生成bin文件</title><link>https://3110962976kuangnu.github.io/post/keil%20-sheng-cheng-bin-wen-jian.html</link><description>```powershell&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>crfl BLOGe</title><link>https://3110962976kuangnu.github.io</link><description>随便写写</description><copyright>crfl BLOGe</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/49715246?v=4</url><title>avatar</title><link>https://3110962976kuangnu.github.io</link></image><lastBuildDate>Tue, 03 Dec 2024 08:36:29 +0000</lastBuildDate><managingEditor>crfl BLOGe</managingEditor><ttl>60</ttl><webMaster>crfl BLOGe</webMaster><item><title>pandas 大量数据绘制折线图</title><link>https://3110962976kuangnu.github.io/post/pandas%20-da-liang-shu-ju-hui-zhi-zhe-xian-tu.html</link><description>```python&#13;
+import pandas as pd&#13;
+import matplotlib.pyplot as plt&#13;
+&#13;
+# 假设 A 和 B 是你的大数据集&#13;
+A = pd.Series(your_large_array_A)&#13;
+B = pd.Series(your_large_array_B)&#13;
+&#13;
+# 创建 DataFrame&#13;
+df = pd.DataFrame({'A': A, 'B': B})&#13;
+&#13;
+# 绘制折线图&#13;
+df.plot(x='A', y='B')&#13;
+plt.show()&#13;
+``` 。</description><guid isPermaLink="true">https://3110962976kuangnu.github.io/post/pandas%20-da-liang-shu-ju-hui-zhi-zhe-xian-tu.html</guid><pubDate>Tue, 03 Dec 2024 08:35:53 +0000</pubDate></item><item><title>keil 生成bin文件</title><link>https://3110962976kuangnu.github.io/post/keil%20-sheng-cheng-bin-wen-jian.html</link><description>```powershell&#13;
 fromelf --bin -o '$L@L.bin' '#L&#13;
 ``` 。</description><guid isPermaLink="true">https://3110962976kuangnu.github.io/post/keil%20-sheng-cheng-bin-wen-jian.html</guid><pubDate>Sat, 30 Nov 2024 02:13:29 +0000</pubDate></item><item><title>激活windows和office</title><link>https://3110962976kuangnu.github.io/post/ji-huo-windows-he-office.html</link><description>复制以下命令到Powershell窗口, 回车，&#13;
 ```powershell&#13;
