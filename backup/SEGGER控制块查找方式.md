@@ -1,1 +1,1 @@
-在 map文件中 搜索 .bss._SEGGER_RTT  最左侧的地址就是的控制块的地址
+在 map文件中 搜索 .bss._SEGGER_RTT  或者 segger_rtt.o(.bss)  
